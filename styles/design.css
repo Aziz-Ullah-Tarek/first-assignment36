@@ -86,3 +86,41 @@ nav ul li {
     cursor: pointer;
     font-size: 16px;
 }
+.action{
+    display: flex;
+    height: 328px;
+    width:1140px;
+    margin:70px auto 50px auto;
+    justify-content: space-between;
+    padding: 0px;
+    gap: auto;
+
+}
+main h3{
+    font-weight: bold;
+    font-size: 35px;
+    color: #252432;
+    width:557px;
+    height: 49px;
+}
+.paragraph{
+    color: #252432;
+    font-size: 24px;
+    width: 517px;
+    height: 60px;
+
+}
+.action-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.section-action{
+    height: 517px;
+    width: 203px;
+    gap: 35px;
+    margin:72px 623px 72px 0px;
+} 
+main h3,.paragraph,.live-btn{
+    margin-bottom: 25px;
+}
