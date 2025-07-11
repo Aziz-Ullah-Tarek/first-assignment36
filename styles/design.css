@@ -63,19 +63,6 @@ nav ul li {
     font-size: 16px;
 }
 
-.banner {
-     width: 905px;
-    height: 237px;
-    margin: 158px auto 92px auto;
-    text-align: center;
-}
-
-.banner-content h1 {
-     font-size: 65px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
 .stay-btn {
     background-color: #4E47FF;
     color: white;
@@ -86,41 +73,106 @@ nav ul li {
     cursor: pointer;
     font-size: 16px;
 }
-.action{
+
+.banner {
+    width: 905px;
+    height: 237px;
+    margin: 158px auto 92px auto;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.action {
     display: flex;
     height: 328px;
-    width:1140px;
-    margin:70px auto 50px auto;
+    width: 1140px;
+    margin: 70px auto 50px auto;
     justify-content: space-between;
     padding: 0px;
-    gap: auto;
+}
 
-}
-main h3{
-    font-weight: bold;
-    font-size: 35px;
-    color: #252432;
-    width:557px;
-    height: 49px;
-}
-.paragraph{
-    color: #252432;
-    font-size: 24px;
-    width: 517px;
-    height: 60px;
-
-}
-.action-pic{
+.action-pic {
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
-.section-action{
+
+.section-action {
     height: 517px;
     width: 203px;
-    gap: 35px;
-    margin:72px 623px 72px 0px;
-} 
-main h3,.paragraph,.live-btn{
+    margin: 72px 623px 72px 0px;
+}
+
+main h3 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #252432;
+    width: 557px;
+    height: 49px;
     margin-bottom: 25px;
+}
+
+.paragraph {
+    color: #252432;
+    font-size: 24px;
+    width: 517px;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+.live-btn {
+    margin-bottom: 25px;
+}
+
+.p-head {
+    font-weight: bold;
+    font-size: 38px;
+    color: #1E1E1E;
+    margin-bottom: 40px;
+}
+
+.secondary-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.productive-user {
+    background-color: #b2b2d7;
+    width: 1140px;
+    height: 306px;
+    padding: 100px 120px;
+    text-align: center;
+    margin: 70px auto 50px auto;
+}
+
+.p-items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    
+}
+
+.item-title {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.item-description {
+    color: #000000;
+    font-size: 20px;
+    
+}
+.p-item{
+    padding-top: 10px;
+    padding-bottom: 180px;
+    line-height: 0.8;
+}
+.item-title,.item-description{
+    margin-bottom: 13px;
 }
